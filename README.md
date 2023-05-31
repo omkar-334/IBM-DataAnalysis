@@ -103,13 +103,13 @@ scipy.stats.chi2_contingency(table,correction=True)
   
 ###### 10. Boxplots  
   
-![1685524552273](https://github.com/omkar-334/IBM-DataAnalysis/assets/40126336/a0481ebc-af8c-4d9f-bda2-151b388e7ce0)  
+![box](https://drive.google.com/file/d/1Zat7FKGIa2Sny969Hi_eISOXdr6KCz4w/view?usp=share_link)  
 uq=1.5*IQR above 75th %ile  
 lq=1.5*IQR below 25th %ile  
   
 ###### 11. Chi Square Test  
   
-![1685524545075](https://github.com/omkar-334/IBM-DataAnalysis/assets/40126336/7a6936ab-1868-471d-9dcc-77b099d8157c)  
+![chi](https://drive.google.com/file/d/1-YHFgd_x-MjRYsEoL3j102mwpjBE4v8q/view?usp=sharing)  
 Oi-Observed Value  
 Ei - Expected Value  
 Ei=Rowtotal*Columtotal/Grandtotal  
@@ -118,12 +118,12 @@ DoF=(row-1)*(column-1)
 ### Week 4 - Model Development  
   
 Simple Linear regression refers to one independent variable to make a prediction.  
-![1685524477814](https://github.com/omkar-334/IBM-DataAnalysis/assets/40126336/4297cc71-cba2-43b0-beaa-0a28f7d27fcb)  
+![slr](https://drive.google.com/file/d/1SMBMGJ4HrE9uiYa23F0GXfxK2woAxvr6/view?usp=sharing)  
 Multiple linear regression refers to multiple independent variables to make a prediction.  
-![1685524497387](https://github.com/omkar-334/IBM-DataAnalysis/assets/40126336/182a5d49-ab99-473a-9e81-7b9cc5836c2d)  
+![mlr](https://drive.google.com/file/d/116O31IMMGdDAq8VOzFIUwWPdWJ1otvUy/view?usp=sharing)  
 MLR is used to explain the relationship between one continuous target variable Y and two or more predictor X values  
-![1685524516525](https://github.com/omkar-334/IBM-DataAnalysis/assets/40126336/83ac7389-080b-4c4e-ac81-e7dc3053a0a3)  
-![1685524526303](https://github.com/omkar-334/IBM-DataAnalysis/assets/40126336/14dea4ef-6f17-4f8c-8009-42cbe891a3da)  
+![mvs](https://drive.google.com/file/d/1JH8Aionyc4aQAr0jcpurA1tQzJ4E3RpU/view?usp=sharing)  
+![poly](https://drive.google.com/file/d/16vdl3YTNOp1lnwKMcT4TsXLX8q3348rF/view?usp=sharing)  
 intercept b0 - lm.intercept_  
 slope b1 - lm.coef_  
   
@@ -140,9 +140,9 @@ How close the data is to the fitted regression line(-ve R^2 due to overfitting)
 =1 good fit  
 =0.9 - 90 % of the observed variations can be explained by the independent variables  
   
-![1685524578542](https://github.com/omkar-334/IBM-DataAnalysis/assets/40126336/67e3c95a-99b7-45a4-9d8f-78602ed5a119)  
-![1685524570636](https://github.com/omkar-334/IBM-DataAnalysis/assets/40126336/aed3ceb7-a6fe-413c-a51b-88b512670980)  
-![1685524585883](https://github.com/omkar-334/IBM-DataAnalysis/assets/40126336/a47e8b4c-39c9-474f-96c0-a7990a2803cf)  
+![rsq](https://drive.google.com/file/d/1aUQDviNist_lGvs8yJqQQkZRp_Bon3ac/view?usp=sharing)  
+![rsqgraph](https://drive.google.com/file/d/1LxCo6dyx0_yLDfID6xACE_0Nw7p89jQM/view?usp=sharing)  
+![rsqform](https://drive.google.com/file/d/1DIOwOetQtq3Oa4o4EbzI6svOqfJhntQT/view?usp=sharing)  
   
 ### Week 5 - Model Evaluation and Refinement  
   
