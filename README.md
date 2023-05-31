@@ -103,13 +103,13 @@ scipy.stats.chi2_contingency(table,correction=True)
   
 ###### 10. Boxplots  
   
-![box](https://drive.google.com/file/d/1Zat7FKGIa2Sny969Hi_eISOXdr6KCz4w/view?usp=share_link)  
+![box](https://github.com/omkar-334/IBM-DataAnalysis/assets/40126336/b7228376-e4a0-4e3c-9d03-b31cfe9ba960)  
 uq=1.5*IQR above 75th %ile  
 lq=1.5*IQR below 25th %ile  
   
 ###### 11. Chi Square Test  
   
-![chi](https://drive.google.com/file/d/1-YHFgd_x-MjRYsEoL3j102mwpjBE4v8q/view?usp=sharing)  
+![chi](https://github.com/omkar-334/IBM-DataAnalysis/assets/40126336/9b358320-8de1-4039-948b-1c314f21ac0b)  
 Oi-Observed Value  
 Ei - Expected Value  
 Ei=Rowtotal*Columtotal/Grandtotal  
@@ -118,12 +118,12 @@ DoF=(row-1)*(column-1)
 ### Week 4 - Model Development  
   
 Simple Linear regression refers to one independent variable to make a prediction.  
-![slr](https://drive.google.com/file/d/1SMBMGJ4HrE9uiYa23F0GXfxK2woAxvr6/view?usp=sharing)  
+![slr](https://github.com/omkar-334/IBM-DataAnalysis/assets/40126336/170ffd2d-bc57-4124-94d4-6234003811a4)  
 Multiple linear regression refers to multiple independent variables to make a prediction.  
-![mlr](https://drive.google.com/file/d/116O31IMMGdDAq8VOzFIUwWPdWJ1otvUy/view?usp=sharing)  
+![mlr](https://github.com/omkar-334/IBM-DataAnalysis/assets/40126336/117c9c62-4eb8-40d2-bada-93993e2c523d)  
 MLR is used to explain the relationship between one continuous target variable Y and two or more predictor X values  
-![mvs](https://drive.google.com/file/d/1JH8Aionyc4aQAr0jcpurA1tQzJ4E3RpU/view?usp=sharing)  
-![poly](https://drive.google.com/file/d/16vdl3YTNOp1lnwKMcT4TsXLX8q3348rF/view?usp=sharing)  
+![mvs](https://github.com/omkar-334/IBM-DataAnalysis/assets/40126336/f2453d91-6852-4459-8c34-367f7fe6282b)  
+![poly](https://github.com/omkar-334/IBM-DataAnalysis/assets/40126336/d136ab5f-926b-4dd6-9a8c-7acc53bf8c17)  
 intercept b0 - lm.intercept_  
 slope b1 - lm.coef_  
   
@@ -140,9 +140,9 @@ How close the data is to the fitted regression line(-ve R^2 due to overfitting)
 =1 good fit  
 =0.9 - 90 % of the observed variations can be explained by the independent variables  
   
-![rsq](https://drive.google.com/file/d/1aUQDviNist_lGvs8yJqQQkZRp_Bon3ac/view?usp=sharing)  
-![rsqgraph](https://drive.google.com/file/d/1LxCo6dyx0_yLDfID6xACE_0Nw7p89jQM/view?usp=sharing)  
-![rsqform](https://drive.google.com/file/d/1DIOwOetQtq3Oa4o4EbzI6svOqfJhntQT/view?usp=sharing)  
+![rsq](https://github.com/omkar-334/IBM-DataAnalysis/assets/40126336/c5bca474-5909-450e-917b-7e7f06d3c2a0)  
+![rsqgraph](https://github.com/omkar-334/IBM-DataAnalysis/assets/40126336/f61745c5-2073-453f-b0d4-081f47f99a33)  
+![rsqform](https://github.com/omkar-334/IBM-DataAnalysis/assets/40126336/c5bca474-5909-450e-917b-7e7f06d3c2a0)  
   
 ### Week 5 - Model Evaluation and Refinement  
   
@@ -204,3 +204,6 @@ scores['mean_test_score']
   
 for param,mean_val,mean_test in zip(scores['params'],scores['mean_test_score'],scores['mean_train_score']):  
 	print(param, "R^2 on test data:", mean_val, "R^2 on train data:", mean_test)  
+	
+#### Certificate
+![Cert](https://user-images.githubusercontent.com/40126336/242241483-816e80b0-cf85-4234-9a6a-3e4c4d98487d.png)
