@@ -7,7 +7,6 @@ DV libraries - Matplotlib, Seaborn
 Algorithmic libraries - Scikit-learn, statsmodels    
   
 ###### Connection objects- Database connections, manage transactions    
-  
 import dbmodule as db    
 commit()- commit any pending transaction    
 cursor()-returns new cursor using connection    
@@ -25,7 +24,6 @@ connection.close()
 Cursor objects - Database queries    
   
 ### Week 2 - Data Wrangling    
-  
 df.dropna()    
 axis=0 for rows    
 axis=1 for columns    
@@ -105,13 +103,13 @@ scipy.stats.chi2_contingency(table,correction=True)
   
 ###### 10. Boxplots  
   
-![1685524552273](images/1685524552273.png)  
+![1685524552273](https://github.com/omkar-334/IBM-DataAnalysis/assets/40126336/a0481ebc-af8c-4d9f-bda2-151b388e7ce0)  
 uq=1.5*IQR above 75th %ile  
 lq=1.5*IQR below 25th %ile  
   
 ###### 11. Chi Square Test  
   
-![1685524545075](images/1685524545075.png)  
+![1685524545075](https://github.com/omkar-334/IBM-DataAnalysis/assets/40126336/7a6936ab-1868-471d-9dcc-77b099d8157c)  
 Oi-Observed Value  
 Ei - Expected Value  
 Ei=Rowtotal*Columtotal/Grandtotal  
