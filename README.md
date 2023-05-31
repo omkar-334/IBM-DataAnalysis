@@ -205,5 +205,3 @@ scores['mean_test_score']
 for param,mean_val,mean_test in zip(scores['params'],scores['mean_test_score'],scores['mean_train_score']):  
 	print(param, "R^2 on test data:", mean_val, "R^2 on train data:", mean_test)  
 	
-#### Certificate
-![Cert](https://user-images.githubusercontent.com/40126336/242241483-816e80b0-cf85-4234-9a6a-3e4c4d98487d.png)
