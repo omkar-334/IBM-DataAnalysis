@@ -118,12 +118,12 @@ DoF=(row-1)*(column-1)
 ### Week 4 - Model Development  
   
 Simple Linear regression refers to one independent variable to make a prediction.  
-![1685524477814](images/1685524477814.png)  
+![1685524477814](https://github.com/omkar-334/IBM-DataAnalysis/assets/40126336/4297cc71-cba2-43b0-beaa-0a28f7d27fcb)  
 Multiple linear regression refers to multiple independent variables to make a prediction.  
-![1685524497387](images/1685524497387.png)  
+![1685524497387](https://github.com/omkar-334/IBM-DataAnalysis/assets/40126336/182a5d49-ab99-473a-9e81-7b9cc5836c2d)  
 MLR is used to explain the relationship between one continuous target variable Y and two or more predictor X values  
-![1685524516525](images/1685524516525.png)  
-![1685524526303](images/1685524526303.png)  
+![1685524516525](https://github.com/omkar-334/IBM-DataAnalysis/assets/40126336/83ac7389-080b-4c4e-ac81-e7dc3053a0a3)  
+![1685524526303](https://github.com/omkar-334/IBM-DataAnalysis/assets/40126336/14dea4ef-6f17-4f8c-8009-42cbe891a3da)  
 intercept b0 - lm.intercept_  
 slope b1 - lm.coef_  
   
@@ -140,9 +140,9 @@ How close the data is to the fitted regression line(-ve R^2 due to overfitting)
 =1 good fit  
 =0.9 - 90 % of the observed variations can be explained by the independent variables  
   
-![1685524578542](images/1685524578542.png)  
-![1685524570636](images/1685524570636.png)  
-![1685524585883](images/1685524585883.png)  
+![1685524578542](https://github.com/omkar-334/IBM-DataAnalysis/assets/40126336/67e3c95a-99b7-45a4-9d8f-78602ed5a119)  
+![1685524570636](https://github.com/omkar-334/IBM-DataAnalysis/assets/40126336/aed3ceb7-a6fe-413c-a51b-88b512670980)  
+![1685524585883](https://github.com/omkar-334/IBM-DataAnalysis/assets/40126336/a47e8b4c-39c9-474f-96c0-a7990a2803cf)  
   
 ### Week 5 - Model Evaluation and Refinement  
   
